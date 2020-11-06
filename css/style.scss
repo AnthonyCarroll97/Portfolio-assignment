@@ -11,7 +11,7 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    .navbar {
+    navbar {
         width: 35%;
     }
     .nav-list {
@@ -25,7 +25,6 @@ header {
         .line {
             height: 6px;
             width: 35px;
-            background: black;
             margin: 4px;
         }
     }
@@ -37,8 +36,19 @@ header {
 @media screen and (max-width: 630px) {
     .burger {
         display: inline-block;
+        .line {
+            height: 6px;
+            width: 35px;
+            margin: 4px;
+        }
     } 
-    header {
-        background: red;
+
+    navbar {
+        position: relative;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background: black;
+        color: grey;    
     }
 }

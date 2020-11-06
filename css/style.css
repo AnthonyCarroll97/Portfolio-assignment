@@ -12,7 +12,7 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-header .navbar {
+header navbar {
   width: 35%;
 }
 header .nav-list {
@@ -26,7 +26,6 @@ header .burger {
 header .burger .line {
   height: 6px;
   width: 35px;
-  background: black;
   margin: 4px;
 }
 
@@ -38,9 +37,19 @@ header .burger .line {
   .burger {
     display: inline-block;
   }
+  .burger .line {
+    height: 6px;
+    width: 35px;
+    margin: 4px;
+  }
 
-  header {
-    background: red;
+  navbar {
+    position: relative;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background: black;
+    color: grey;
   }
 }
 
