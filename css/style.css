@@ -5,6 +5,7 @@
 }
 
 header {
+  position: fixed;
   height: 8vh;
   width: 100%;
   background: grey;
@@ -97,6 +98,14 @@ header .burger .line {
   .blog-card .blog-image {
     height: 60%;
     background: lightblue;
+  }
+
+  .about-main {
+    display: grid;
+    background: red;
+    height: 1000px;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
