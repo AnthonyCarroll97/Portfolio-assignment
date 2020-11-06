@@ -5,6 +5,7 @@
 }
 header {
     height: 8vh;
+    width: 100%;
     background: grey;
     display: flex;
     justify-content: space-around;
@@ -25,7 +26,19 @@ header {
             height: 6px;
             width: 35px;
             background: black;
-            margin: 4px
+            margin: 4px;
         }
+    }
+}
+.backdrop-image {
+    width: 100%
+}
+
+@media screen and (max-width: 630px) {
+    .burger {
+        display: inline-block;
+    } 
+    header {
+        background: red;
     }
 }
