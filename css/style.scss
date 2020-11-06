@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+header {
+    height: 8vh;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .navbar {
+        width: 35%;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+    }
+    .burger {
+        display: none;
+        .line {
+            height: 6px;
+            width: 35px;
+            background: black;
+            margin: 4px
+        }
+    }
+}

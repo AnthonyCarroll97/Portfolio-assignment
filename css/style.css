@@ -4,4 +4,29 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 8vh;
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .navbar {
+  width: 35%;
+}
+header .nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+header .burger {
+  display: none;
+}
+header .burger .line {
+  height: 6px;
+  width: 35px;
+  background: black;
+  margin: 4px;
+}
+
 /*# sourceMappingURL=style.css.map */
