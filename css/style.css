@@ -20,6 +20,10 @@ header .nav-list {
   justify-content: space-between;
   list-style-type: none;
 }
+header a {
+  text-decoration: none;
+  color: black;
+}
 header .burger {
   display: none;
   cursor: pointer;
@@ -39,6 +43,16 @@ header .burger .line {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 50px;
+}
+
+.blog-links {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-content {
+  padding: 5% 2% 2% 0;
 }
 
 @media screen and (max-width: 630px) {
@@ -79,7 +93,6 @@ header .burger .line {
   .blog-card {
     width: 400px;
     height: 500px;
-    border: 2px solid black;
   }
   .blog-card .blog-image {
     height: 60%;

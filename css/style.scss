@@ -18,7 +18,10 @@ header {
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-
+    }
+    a {
+        text-decoration: none;
+        color: black;
     }
     .burger {
         display: none;
@@ -36,11 +39,19 @@ header {
     width: 100%
 }
 
-// blog card layout
+// blog cards
 .blog-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 50px;
+}
+.blog-links {
+    text-decoration: none;
+    color: black;
+}
+.blog-content {
+    padding: 5% 2% 2% 0;
 }
 
 // Mobile layout
@@ -81,7 +92,7 @@ header {
     .blog-card {
         width: 400px;
         height: 500px;
-        border: 2px solid black;
+        
         .blog-image {
             height: 60%;
             background: lightblue;
