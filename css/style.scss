@@ -10,9 +10,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 2px solid black;
 
     navbar {
         width: 35%;
+        z-index: 1;
     }
     .nav-list {
         display: flex;
@@ -38,6 +40,35 @@ header {
 .backdrop-image {
     width: 100%
 }
+footer {
+    position: relative;
+    bottom: 0px;
+    height: 8vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+
+    .socials {
+        width: 50%;
+        .socials-list { 
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+            img {
+                max-width: 30px
+            }
+    
+        }
+    }
+    .contact {
+        width: 50%;
+        .contact-list {
+            list-style-type: none
+        }
+    }
+}
 
 // blog cards
 .blog-main {
@@ -53,6 +84,12 @@ header {
 .blog-content {
     padding: 5% 2% 2% 0;
 }
+// About page
+.coding-pic {
+    max-width: 100%;
+}
+
+
 
 // Mobile layout
 @media screen and (max-width: 630px) {
@@ -102,10 +139,10 @@ header {
     //Mobile about grid
     .about-main {
         display: grid;
-        background: red;
         height: 1000px;
         grid-template-columns: 1;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 250px);
     }
+    
     
 }
