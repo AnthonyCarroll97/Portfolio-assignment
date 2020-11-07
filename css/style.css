@@ -22,9 +22,15 @@ header .nav-list {
   justify-content: space-between;
   list-style-type: none;
 }
-header a {
+header .nav-list a {
+  padding: 5px 10px;
+  border-radius: 5px;
   text-decoration: none;
   color: black;
+}
+header .nav-list a:hover {
+  color: white;
+  background: darkgrey;
 }
 header .burger {
   display: none;
@@ -136,12 +142,28 @@ footer .contact .contact-list {
 .about-main {
   display: grid;
   width: 100vw;
-  grid-template-columns: 1;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
   margin: 40px 0;
 }
 .about-main img {
   max-width: 100%;
+}
+.about-main .about-pic2 {
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+}
+.about-main .about-info2 {
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+  padding: 20px;
+}
+.about-main .about-pic1 {
+  grid-column: 1/span 1;
+}
+.about-main .about-info1 {
+  padding: 20px;
+  grid-column: 2/span 1;
 }
 
 @media screen and (max-width: 1007px) {
@@ -159,6 +181,11 @@ footer .contact .contact-list {
   }
   footer .contact {
     width: 40%;
+  }
+
+  .pen {
+    width: 50%;
+    border: 2px solid red;
   }
 
   .blog-card {
@@ -233,11 +260,6 @@ footer .contact .contact-list {
   }
   .blog-view-main .blog-view-img img {
     max-width: 100%;
-  }
-
-  .about-main {
-    height: 1000px;
-    padding: 0px 80px;
   }
 }
 

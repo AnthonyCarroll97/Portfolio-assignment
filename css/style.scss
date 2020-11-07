@@ -12,6 +12,9 @@ header {
     align-items: center;
     border-bottom: 2px solid black;
 
+    .nav-list {
+        
+    }
     navbar {
         width: 35%;
         z-index: 1;
@@ -20,10 +23,16 @@ header {
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-    }
-    a {
-        text-decoration: none;
-        color: black;
+        a {
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: white;
+            background: darkgrey;
+        }
     }
     .burger {
         display: none;
@@ -39,7 +48,7 @@ header {
 }
 // Home page
 .home-main {
-    // height: 84vh;
+    // height:84vh;
 }
 .welcome {
     position: absolute;
@@ -140,11 +149,28 @@ footer {
 .about-main {
     display: grid;
     width: 100vw;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(4, 1fr);
+  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     margin: 40px 0;
     img {
         max-width: 100%;
+    }
+    .about-pic2 {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .about-info2 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        padding: 20px;
+    }
+    .about-pic1 {
+        grid-column: 1 / span 1;
+    }
+    .about-info1 {
+        padding: 20px;
+        grid-column: 2 / span 1;
     }
 }
 // Tablet layout
@@ -168,7 +194,11 @@ footer {
             width: 40%;
         }
     }
-
+    // Work page
+    .pen {
+        width: 50%;
+        border: 2px solid red;
+    }
 
     // Blog page
     .blog-card {
@@ -245,10 +275,7 @@ footer {
     }
 }
     //Mobile about grid
-    .about-main {
-        height: 1000px;
-        padding: 0px 80px;
-    }
+    
     
     
 }
