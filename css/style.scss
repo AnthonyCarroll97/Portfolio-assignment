@@ -91,13 +91,15 @@ footer {
 .blog-content {
     padding-top: 20px;
 }
-
-// Blog view page
-.blog-view-image {
-    width: 80%;
-    img {
-        max-width: 100%;
-    }
+// Contact page
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 // About page
 .about-main {
@@ -110,11 +112,6 @@ footer {
         max-width: 100%;
     }
 }
-
-
-
-
-
 // Mobile layout
 @media screen and (max-width: 630px) {
     header {
@@ -152,7 +149,18 @@ footer {
     .blog-card {
         width: 400px;
     }
-
+    // Blog view page
+    .blog-view-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .blog-view-img {
+        width: 400px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
     //Mobile about grid
     .about-main {
         height: 1000px;

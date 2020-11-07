@@ -92,11 +92,13 @@ footer .contact .contact-list {
   padding-top: 20px;
 }
 
-.blog-view-image {
-  width: 80%;
-}
-.blog-view-image img {
-  max-width: 100%;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .about-main {
@@ -147,6 +149,18 @@ footer .contact .contact-list {
 
   .blog-card {
     width: 400px;
+  }
+
+  .blog-view-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .blog-view-main .blog-view-img {
+    width: 400px;
+  }
+  .blog-view-main .blog-view-img img {
+    max-width: 100%;
   }
 
   .about-main {
