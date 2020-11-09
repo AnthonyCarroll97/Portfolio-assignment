@@ -12,6 +12,7 @@ header {
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid black;
+  color: #F6CA83;
 }
 header navbar {
   width: 35%;
@@ -26,7 +27,7 @@ header .nav-list a {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: #F6CA83;
 }
 header .nav-list a:hover {
   color: white;
@@ -41,6 +42,11 @@ header .burger .line {
   width: 35px;
   margin: 3px;
   background: black;
+}
+
+.home-main {
+  height: 84vh;
+  background: #E8D3BA;
 }
 
 .welcome {
@@ -62,6 +68,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #F6CA83;
 }
 footer .socials {
   width: 50%;
@@ -82,11 +89,16 @@ footer .contact .contact-list {
   list-style-type: none;
 }
 
+.work-main {
+  height: 84vh;
+}
+
 .blog-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
+  background: #E8D3BA;
 }
 
 .blog-card {
@@ -127,8 +139,13 @@ footer .contact .contact-list {
   display: flex;
   justify-content: center;
 }
+.contact-main img {
+  max-width: 100%;
+}
 
 .contact-form {
+  position: absolute;
+  background: white;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -152,6 +169,7 @@ footer .contact .contact-list {
 .about-main .about-pic2 {
   grid-column: 2/span 1;
   grid-row: 2/span 1;
+  margin: 2%;
 }
 .about-main .about-info2 {
   grid-column: 1/span 1;
@@ -160,6 +178,7 @@ footer .contact .contact-list {
 }
 .about-main .about-pic1 {
   grid-column: 1/span 1;
+  margin: 2%;
 }
 .about-main .about-info1 {
   padding: 20px;
