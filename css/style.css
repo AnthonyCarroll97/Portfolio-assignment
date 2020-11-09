@@ -7,12 +7,12 @@
 header {
   height: 8vh;
   width: 100%;
-  background: grey;
+  background: #F6CA83;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid black;
-  color: #F6CA83;
+  color: black;
 }
 header navbar {
   width: 35%;
@@ -27,7 +27,7 @@ header .nav-list a {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: #F6CA83;
+  color: black;
 }
 header .nav-list a:hover {
   color: white;
@@ -46,7 +46,7 @@ header .burger .line {
 
 .home-main {
   height: 84vh;
-  background: #E8D3BA;
+  background: #e8d3ba;
 }
 
 .welcome {
@@ -91,6 +91,23 @@ footer .contact .contact-list {
 
 .work-main {
   height: 84vh;
+  padding: 4%;
+  background: #e8d3ba;
+}
+.work-main .work-info {
+  margin-bottom: 50px;
+}
+.work-main .work-info h3 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
+.work-main .work-info ul {
+  position: relative;
+  left: 20px;
+}
+.work-main .work-info a {
+  font-weight: bold;
 }
 
 .blog-main {
@@ -98,7 +115,7 @@ footer .contact .contact-list {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
-  background: #E8D3BA;
+  background: #e8d3ba;
 }
 
 .blog-card {
@@ -148,43 +165,113 @@ footer .contact .contact-list {
   background: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin: 20px;
   border: 2px solid black;
   border-radius: 20px;
-  padding: 10px;
-  width: 70%;
-  height: 70%;
+  padding: 20px 20px 40px 20px;
+  height: 40%;
+}
+.contact-form button {
+  width: 30%;
+  align-self: center;
 }
 
 .about-main {
   display: grid;
   width: 100vw;
+  background: #e8d3ba;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  margin: 40px 0;
-}
-.about-main img {
-  max-width: 100%;
-}
-.about-main .about-pic2 {
-  grid-column: 2/span 1;
-  grid-row: 2/span 1;
-  margin: 2%;
-}
-.about-main .about-info2 {
-  grid-column: 1/span 1;
-  grid-row: 2/span 1;
-  padding: 20px;
-}
-.about-main .about-pic1 {
-  grid-column: 1/span 1;
-  margin: 2%;
-}
-.about-main .about-info1 {
-  padding: 20px;
-  grid-column: 2/span 1;
+  padding: 40px;
 }
 
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.bio-pic {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  background: darkgrey;
+  box-shadow: 1px 1px 2px black;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+  margin: 2%;
+  width: 85%;
+}
+.bio-pic img {
+  max-width: 100%;
+}
+
+.bio-info {
+  padding: 20px;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+
+.about-pic2 {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background: darkgrey;
+  box-shadow: 1px 1px 2px black;
+  grid-column: 1/span 1;
+  grid-row: 3/span 1;
+  margin: 2%;
+}
+.about-pic2 img {
+  max-width: 100%;
+}
+
+.about-info2 {
+  grid-column: 2/span 1;
+  grid-row: 3/span 1;
+  padding: 20px;
+}
+
+.about-pic1 {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background: darkgrey;
+  box-shadow: 1px 1px 2px black;
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+  margin: 2%;
+}
+.about-pic1 img {
+  max-width: 100%;
+}
+
+.about-info1 {
+  padding: 20px;
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+}
+
+@media screen and (min-width: 1008px) {
+  .home-main {
+    height: auto;
+  }
+
+  footer {
+    padding: 0px 50px 0px 50px;
+  }
+  footer .socials {
+    width: 35%;
+  }
+  footer .contact {
+    width: 35%;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+}
 @media screen and (max-width: 1007px) {
   .nav-list a {
     padding: 5px 10px;
@@ -199,16 +286,11 @@ footer .contact .contact-list {
     width: 40%;
   }
   footer .contact {
-    width: 40%;
-  }
-
-  .pen {
-    width: 50%;
-    border: 2px solid red;
+    width: 45%;
   }
 
   .blog-card {
-    width: 350px;
+    width: 300px;
   }
 
   .blog-view-main {
@@ -222,8 +304,12 @@ footer .contact .contact-list {
   .blog-view-main .blog-view-img img {
     max-width: 100%;
   }
+
+  .contact-form {
+    width: 60%;
+  }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 680px) {
   header {
     justify-content: space-between;
     padding: 0px 40px;
@@ -249,7 +335,7 @@ footer .contact .contact-list {
   }
 
   footer .socials {
-    width: 50%;
+    width: 45%;
   }
   footer .contact {
     width: 50%;
@@ -279,6 +365,10 @@ footer .contact .contact-list {
   }
   .blog-view-main .blog-view-img img {
     max-width: 100%;
+  }
+
+  .contact-form {
+    width: 70%;
   }
 }
 
