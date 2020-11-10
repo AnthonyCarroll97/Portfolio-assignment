@@ -6,8 +6,9 @@
 }
 
 // variables 
-$primary-color: #e8d3ba;
-$secondary-color:#F6CA83;
+$primary-color: rgb(234, 242, 248);
+$secondary-color:#1d3557;
+$text-color: rgb(231, 230, 230);
 header {
     height: 8vh;
     width: 100%;
@@ -15,8 +16,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid black;
-    color: black;
+    border-bottom: 8px solid #457b9d;
+    color: $text-color;
     navbar {
         width: 35%;
         z-index: 1;
@@ -30,12 +31,12 @@ header {
             padding: 5px 10px;
             border-radius: 5px;
             text-decoration: none;
-            color: black;
+            color: $text-color;
             
         }
-        a:hover {
+        .active:hover {
             color: white;
-            background: darkgrey;
+            background: black;
         }
     }
     .burger {
@@ -52,7 +53,7 @@ header {
 }
 // Home page
 .home-main {
-    height: 84vh;
+    height: 86vh;
     background: $primary-color;
 }
 .welcome {
@@ -72,7 +73,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #F6CA83;
+    background: $secondary-color;
 
     .socials {
         width: 50%;
@@ -83,14 +84,15 @@ footer {
             align-items: center;
             list-style-type: none;
             img {
-                max-width: 30px
+                max-width: 30px;
             }
         }
     }
     .contact {
         width: 50%;
         .contact-list {
-            list-style-type: none
+            list-style-type: none;
+            color: $text-color;
         }
     }
 }
@@ -272,7 +274,10 @@ footer {
             width: 35%;
         }
     }
-
+    // About page
+    .about-main {
+        padding: 2% 15% 2% 15%;
+    }
 
 
     // Contact page
@@ -302,6 +307,10 @@ footer {
         .contact {
             width: 45%;
         }
+    }
+    // About page 
+    .about-main {
+        padding: 2% 8% 2% 8%;
     }
     // Blog page
     .blog-card {
@@ -339,7 +348,7 @@ footer {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background: grey;
+        background: $secondary-color;
         transform: translatex(100%);
            .nav-list {
                display: flex;
@@ -349,17 +358,23 @@ footer {
                align-items: center;
                a {
                 letter-spacing: 1px;
-                border-bottom: 2px solid black;
+                border-bottom: 2px solid $text-color;
                 border-radius: 0;
                }
            }
     }
     footer {
         .socials {
-            width: 45%;
+            width: 40%;
+            .socials-list {
+                img {
+                    max-width: 25px;
+                }
+            }
         }
         .contact {
-            width: 50%;
+            width: 55%;
+            font-size: 12px;
         }
     }
     // Jquery classes for navbar

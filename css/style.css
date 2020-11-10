@@ -8,12 +8,12 @@
 header {
   height: 8vh;
   width: 100%;
-  background: #F6CA83;
+  background: #1d3557;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 2px solid black;
-  color: black;
+  border-bottom: 8px solid #457b9d;
+  color: #e7e6e6;
 }
 header navbar {
   width: 35%;
@@ -28,11 +28,11 @@ header .nav-list a {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: #e7e6e6;
 }
-header .nav-list a:hover {
+header .nav-list .active:hover {
   color: white;
-  background: darkgrey;
+  background: black;
 }
 header .burger {
   display: none;
@@ -46,8 +46,8 @@ header .burger .line {
 }
 
 .home-main {
-  height: 84vh;
-  background: #e8d3ba;
+  height: 86vh;
+  background: #eaf2f8;
 }
 
 .welcome {
@@ -69,7 +69,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #F6CA83;
+  background: #1d3557;
 }
 footer .socials {
   width: 50%;
@@ -88,12 +88,13 @@ footer .contact {
 }
 footer .contact .contact-list {
   list-style-type: none;
+  color: #e7e6e6;
 }
 
 .work-main {
   height: 84vh;
   padding: 4%;
-  background: #e8d3ba;
+  background: #eaf2f8;
 }
 .work-main .work-info {
   margin-bottom: 50px;
@@ -116,7 +117,7 @@ footer .contact .contact-list {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
-  background: #e8d3ba;
+  background: #eaf2f8;
 }
 
 .blog-card {
@@ -181,7 +182,7 @@ footer .contact .contact-list {
 .about-main {
   display: grid;
   width: 100vw;
-  background: #e8d3ba;
+  background: #eaf2f8;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   padding: 2%;
@@ -270,6 +271,10 @@ footer .contact .contact-list {
     width: 35%;
   }
 
+  .about-main {
+    padding: 2% 15% 2% 15%;
+  }
+
   .contact-form {
     width: 50%;
   }
@@ -289,6 +294,10 @@ footer .contact .contact-list {
   }
   footer .contact {
     width: 45%;
+  }
+
+  .about-main {
+    padding: 2% 8% 2% 8%;
   }
 
   .blog-card {
@@ -325,7 +334,7 @@ footer .contact .contact-list {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background: grey;
+    background: #1d3557;
     transform: translatex(100%);
   }
   navbar .nav-list {
@@ -337,15 +346,19 @@ footer .contact .contact-list {
   }
   navbar .nav-list a {
     letter-spacing: 1px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #e7e6e6;
     border-radius: 0;
   }
 
   footer .socials {
-    width: 45%;
+    width: 40%;
+  }
+  footer .socials .socials-list img {
+    max-width: 25px;
   }
   footer .contact {
-    width: 50%;
+    width: 55%;
+    font-size: 12px;
   }
 
   .nav-visible {
