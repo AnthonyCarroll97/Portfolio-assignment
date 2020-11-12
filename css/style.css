@@ -46,14 +46,14 @@ header .burger .line {
 }
 
 .home-main {
-  background: #eaf2f8;
+  background: #f7fafc;
   height: 84vh;
 }
 
 .welcome {
-  position: absolute;
-  top: 13%;
-  left: 6%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .backdrop-image {
@@ -80,6 +80,16 @@ footer .socials .socials-list {
   align-items: center;
   list-style-type: none;
 }
+footer .socials .socials-list .github {
+  background: white;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+footer .socials .socials-list .codepen {
+  background: white;
+  border: 2px solid white;
+  border-radius: 3px;
+}
 footer .socials .socials-list img {
   max-width: 30px;
 }
@@ -94,14 +104,13 @@ footer .contact .contact-list {
 .work-main {
   height: 84vh;
   padding: 4%;
-  background: #eaf2f8;
+  background: #f7fafc;
 }
 .work-main .work-info {
   margin-bottom: 50px;
 }
 .work-main .work-info h3 {
   font-size: 1.5em;
-  text-decoration: underline;
   padding-bottom: 0.5em;
 }
 .work-main .work-info ul {
@@ -117,7 +126,7 @@ footer .contact .contact-list {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
-  background: #eaf2f8;
+  background: #f7fafc;
 }
 
 .blog-card {
@@ -148,6 +157,9 @@ footer .contact .contact-list {
 .blog-view-main .blog-view-img img {
   max-width: 100%;
 }
+.blog-view-main .blog-view-info {
+  margin-bottom: 20px;
+}
 
 .blog-content {
   padding-top: 20px;
@@ -157,7 +169,7 @@ footer .contact .contact-list {
   height: 84vh;
   display: flex;
   justify-content: center;
-  background: #eaf2f8;
+  background: #f7fafc;
 }
 .contact-main img {
   max-width: 100%;
@@ -183,7 +195,7 @@ footer .contact .contact-list {
 .about-main {
   display: grid;
   width: 100vw;
-  background: #eaf2f8;
+  background: #f7fafc;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   padding: 2%;
@@ -259,9 +271,20 @@ footer .contact .contact-list {
     width: 35%;
   }
 
+  .home-main {
+    height: auto;
+  }
+
+  .work-main {
+    font-size: 1.2em;
+    height: 84vh;
+    padding: 2% 15%;
+  }
+
   .about-main {
     padding: 2% 15% 2% 15%;
-    height: 84vh;
+    height: auto;
+    font-size: 1.3em;
   }
 
   .contact-form {
@@ -287,6 +310,11 @@ footer .contact .contact-list {
 
   .about-main {
     padding: 2% 8%;
+    font-size: 1.2em;
+  }
+
+  .work-main {
+    font-size: 1.2em;
   }
 
   .blog-card {
@@ -380,8 +408,13 @@ footer .contact .contact-list {
     width: 70%;
   }
 
+  .work-main {
+    font-size: 1em;
+  }
+
   .about-main {
     padding: 4%;
+    font-size: 1em;
   }
 
   .bio-pic {
