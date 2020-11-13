@@ -9,10 +9,10 @@
 The purpose of this website is to advertise myself and my skills to future employers. It will be something that I will update frequently throughout my career as I develop new skills and projects.
 
 ### Funtionality/ features
-The website has some basic javascript funtionality in the navbar when the site is in a mobile viewport-size. 
+The website has some basic javascript funtionality in the navbar when the site is in a mobile viewport-size. The JavaScript allows the navbar to slide smoothly in and out of the screen when the user clicks on the burger menu.
 
 ### Sitemap
-
+ 
 ### Screenshots
 
 ### Target Audience

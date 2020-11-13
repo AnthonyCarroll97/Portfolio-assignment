@@ -39,9 +39,9 @@ header .burger {
   cursor: pointer;
 }
 header .burger .line {
-  height: 5px;
+  height: 4px;
   width: 35px;
-  margin: 3px;
+  margin: 5px;
   background: #e7e6e6;
 }
 
@@ -289,6 +289,10 @@ footer .contact .contact-list {
     padding: 2% 10%;
   }
 
+  .blog-main {
+    height: 84vh;
+  }
+
   .contact-form {
     width: 50%;
   }
@@ -327,6 +331,7 @@ footer .contact .contact-list {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    height: auto;
   }
   .blog-view-main .blog-view-img {
     width: 500px;
@@ -398,12 +403,17 @@ footer .contact .contact-list {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    height: auto;
   }
   .blog-view-main .blog-view-img {
     width: 400px;
   }
   .blog-view-main .blog-view-img img {
     max-width: 100%;
+  }
+
+  .contact-main {
+    height: 84vh;
   }
 
   .contact-form {

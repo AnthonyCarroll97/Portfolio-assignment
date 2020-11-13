@@ -44,15 +44,15 @@ header {
         cursor: pointer;
         .line {
             
-            height: 5px;
+            height: 4px;
             width: 35px;
-            margin: 3px;
+            margin: 5px;
             background: $text-color;
         }
     }
 }
 // Home page
-.home-main {
+.home-main { 
     background: $primary-color;
     height: 84vh;
 }
@@ -294,6 +294,10 @@ footer {
     .blog-view-main {
         padding: 2% 10%;
     }
+    // Blog page
+    .blog-main {
+        height: 84vh;
+    }
     // Contact page
     .contact-form {
         width: 50%;
@@ -340,6 +344,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 20px;
+        height: auto;
         .blog-view-img {
             width: 500px;
             img {
@@ -414,6 +419,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    height: auto;
     .blog-view-img {
         width: 400px;
         img {
@@ -422,6 +428,9 @@ footer {
     }
    }
     // Contact page
+    .contact-main {
+        height: 84vh;
+    }
     .contact-form {
         width: 70%;
         
