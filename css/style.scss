@@ -58,8 +58,7 @@ header {
 }
 .welcome {
     padding: 20px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .backdrop-image {
     width: 100%
@@ -133,7 +132,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 0px;
     
     background: $primary-color;
 }
@@ -161,6 +160,7 @@ footer {
     height: 84vh;
     .blog-view-img {
         width: 500px;
+        padding-bottom: 30px;
         img {
             max-width: 100%;
         }
@@ -178,9 +178,7 @@ footer {
     display: flex;
     justify-content: center;
     background: $primary-color;
-    img {
-        max-width: 100%;
-    }
+    padding-top: 20px;
 }
 .contact-form {
     position: absolute;
@@ -291,6 +289,10 @@ footer {
         padding: 2% 15% 2% 15%;
         height: auto;
         font-size: 1.3em;
+    }
+    // Blog-view page
+    .blog-view-main {
+        padding: 2% 10%;
     }
     // Contact page
     .contact-form {
