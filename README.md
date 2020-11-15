@@ -21,6 +21,7 @@ The site features 5 main pages, Home, About, Work, Blog and Contact. The blog pa
 ![About](docs/about.png)
 ![work](docs/work.png)
 ![Blog](docs/blog.png)
+![Blog-view](docs/blog-view.png)
 ![Contact](docs/contact.png)
 ### **Target Audience**
 The target audience of this website is primarily potential employers looking to employ a full stack developer. The site could also be visited by other web developers looking for people to connect and collaborate with.

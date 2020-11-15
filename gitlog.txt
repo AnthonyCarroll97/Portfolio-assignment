@@ -1,0 +1,149 @@
+commit 12dad298bc0f4a655cc2ee73b6d01d5f92f7b2a2
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sun Nov 15 16:31:20 2020 +1000
+
+    final commit, ready for submission
+
+commit 7b1746a40b0810010feba15ae7049cc23f1920bc
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 14 09:46:57 2020 +1000
+
+    added screenshots for markdown file
+
+commit 6188a8f8b8e0150659727aceb4d1e57df9d39561
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 14 09:19:26 2020 +1000
+
+    changed file system to match submission criteria
+
+commit 355abb7154b1e80a6620a605dbcecd92f3fbf828
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 14 07:52:16 2020 +1000
+
+    added sitemap and documentation
+
+commit f724f437fa1c5899d74c77f8f7b2964db6acd742
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 13 16:02:10 2020 +1000
+
+    small changes for presentation
+
+commit 37632a183d2dce39a8a87ddf5abf90cd534edb57
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Thu Nov 12 13:23:18 2020 +1000
+
+    minor changes with responsiveness, preparing for presentation
+
+commit 988753aa1435fc8906453d6d9bce633da1b2b989
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Wed Nov 11 10:21:35 2020 +1000
+
+    changed landing page photo, tweaks to responsiveness of mobile layout
+
+commit e66fc7d54c719b3830b7bf948dc14d1a9d68c8dd
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Wed Nov 11 08:32:50 2020 +1000
+
+    small changes, altered color scheme
+
+commit 37ead8e13dd21efdc0a41d00f90dbb885bc592a9
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Tue Nov 10 12:54:13 2020 +1000
+
+    Added font, more changes to styling
+
+commit 033b54d2a3f5b90affaa14c5586bdf8d961116e8
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Tue Nov 10 08:30:35 2020 +1000
+
+    Added photo of me, working on the about page
+
+commit 67a5c53fc9ae00d4a86f40e1a2f8bcab4e8d120d
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Mon Nov 9 19:21:18 2020 +1000
+
+    added colors, working on the work page
+
+commit bc22a867f3a7684d6cfd5577e42e0af02b14c405
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 7 20:14:38 2020 +1000
+
+    more changes, added markdown file
+
+commit 57b774f7b1d97cbbe5fb0f6b05688a13736c8092
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 7 18:57:56 2020 +1000
+
+    working on styling for tablet views, added welcome to home page
+
+commit 41322adedd957f86dc9566f6cf9ed3e70162fb80
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 7 10:36:40 2020 +1000
+
+    added contact form
+
+commit ed2686b499545ce6bb02b45d8d5d4ed6c519e278
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Sat Nov 7 09:20:28 2020 +1000
+
+    added photos to blog page, working on blog-view page
+
+commit d5ba15b8d9c2d2696cdfac39181483dbac49bc15
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 20:34:05 2020 +1000
+
+    added footer to all pages
+
+commit 1dc327a29f6a7172de4567c07307f89364b0469e
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 19:01:56 2020 +1000
+
+    updating links to all pages, started work on the about page
+
+commit 4bbad96b5a17c6797fc60b7c717a7ad49beffd17
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 16:27:17 2020 +1000
+
+    added blog-view page and more work done on the blog cards
+
+commit 339b14bcb11f458c4e6fab6d23e9e29bfd1fbeae
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 16:16:19 2020 +1000
+
+    added blog cards, working on styling
+
+commit 74fcc1d37bd2b216ff1dc634b7fee11d4c53885b
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 15:05:27 2020 +1000
+
+    more work to navbar and burger menu, added jquery
+
+commit 7c3f2dfcda9301141d6d76385b0db01765e114ff
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 14:35:33 2020 +1000
+
+    commit to add image to remote repo
+
+commit 51d6ff13b4c00b8491f4dea191e580cd15b3b5e6
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 14:31:31 2020 +1000
+
+    more changes
+
+commit 941a3895b33c9b15975ab68342a8fe6cee82eb67
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 11:30:41 2020 +1000
+
+    added backdrop photo and html to other pages
+
+commit 96d8ef01150535246c5c3222f2663dad00cb47a6
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 10:58:34 2020 +1000
+
+    working on navbar
+
+commit 59012ed1e4e05ca419b124ba40f4f20addf1af21
+Author: AnthonyCarroll97 <anthonycarroll1997@hotmail.com>
+Date:   Fri Nov 6 10:42:57 2020 +1000
+
+    initial commit
